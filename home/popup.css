@@ -1,9 +1,6 @@
 .navbar {
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background: linear-gradient(to bottom, #441a73, #1f0c39);
   overflow: hidden;
-  outline-style: groove;
-  outline-color: #FFF;
-  outline: 1px;
 }
 .website-buttons {
   align-items: center;
