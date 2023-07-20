@@ -1,5 +1,6 @@
 .navbar {
   overflow: hidden;
+  align-items: center;
 }
 .website-buttons {
   align-items: center;
