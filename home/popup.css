@@ -138,6 +138,7 @@ html {
   box-sizing: border-box;
   padding: 16px;
   display: flex;
+  align-items: center;
   place-content: space-between;
   font-weight: 400;
 }
