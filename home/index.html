@@ -8,35 +8,72 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="header_label_container">
-      <img width="106" height="106" src="/assets/logo.png" alt="Italian Trulli">
+  <div id="main">
+    <div class="header">
+      <div class="header_label_container">
+        <img width="106" height="106" src="logo.png" alt="Italian Trulli"></img>
+      </div>
     </div>
-  </div>
-  <div class="header">
-    <div class="header_label_container">
-      <div class="header_label">BloxRain</div>
+    <div class="header">
+      <div class="header_label_container">
+        <div class="header_label">BloxRain</div>
+      </div>
     </div>
-  </div>
-  <div class="header">
-    <div class="header_label_container">
-      <div>Bloxflip</div>
-    </div>
-    <div class="header_label_container">
-      <div>RBLXWILD</div>
+    <div class="header">
+      <div class="header_label_container">
+        <div class="version_label">V3</div>
+      </div>
     </div>
     <div class="header_label_container">
-      <div>RBLXRoll</div>
+      <span class="text">You can manage BloxRain settings here</span>
     </div>
-  </div>
-  <div class="header">
-    <div class="header_label_container">
-      <form action="https://discord.gg/9evTJvWNph" method="get" target="_blank">
-        <button class="discord-button" role="button"><span class="text">Join The Discord</span></button>
-      </form>
+    <div class="header">
+      <div class="header_label_container">
+        <body>
+          <button id="bloxflip" class="website-buttons" role="button">
+            <span class="text">BLOXFLIP</span>
+          </button>
+        </body>
+      </div>
+      <div class="header_label_container">
+        <body>
+          <button id="rblxwild" class="website-buttons" role="button">
+            <span class="text">RBLXWILD</span>
+          </button>
+        </body>
+      </div>
+      <div class="header_label_container">
+        <body>
+          <button id="rblxroll" class="website-buttons" role="button">
+            <span class="text">RBLXROLL</span>
+          </button>
+        </body>
+      </div>
+      <div class="header_label_container">
+        <body>
+          <button id="bloxmoon" class="website-buttons" role="button">
+            <span class="text">BLOXMOON</span>
+          </button>
+        </body>
+      </div>
     </div>
-  </div>
-  <div class="footer">
-    <div class="header_label_container">BloxBot TM - thwartedbrute</div>
+    <div class="header">
+      <div class="header_label_container">
+        <form action="https://discord.gg/9evTJvWNph" method="get" target="_blank">
+          <button class="discord-button" role="button">
+            <span class="text">Join The Discord</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="header_label_container"> 
+      <span class="text">Set discord webhook (blank = none)</span> 
+    </div>
+    <div class="header"> 
+      <div class="header_label_container">
+        <input id="webhook" class="input-button" role="button" type="text" autocomplete="off" spellcheck="false" placeholder="https://discord.com/"/>
+      </div>
+    </div>
+    <script src="popup.js"></script>
   </div>
 </body>
