@@ -3,6 +3,7 @@
   overflow: hidden;
   outline-style: inset;
   outline-color: #FF;
+  outline: 2px;
 }
 .website-buttons {
   align-items: center;
