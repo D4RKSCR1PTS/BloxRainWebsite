@@ -119,10 +119,10 @@
   outline: 0;
 }
 html {
-  width: 340px;
+  width: auto;
 }
 body {
-  width: 324px;
+  width: auto;
 }
 body,
 html {
