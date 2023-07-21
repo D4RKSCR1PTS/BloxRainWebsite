@@ -166,6 +166,7 @@ html {
   font-weight: 700;
   display: flex;
   color: #fff;
+  align-items: center;
 }
 .version_label {
   box-sizing: border-box;
